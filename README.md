@@ -7,3 +7,4 @@ This project is the continuation of course work 1 which you can find on my githu
 In this project I have used mongodb and vue js to create an after school classes page, where students can buy seats in these classes.
 
 The data is saved in mongodb and I use server.js to extract data through CRUD operations and fetch the data on index.html
+
