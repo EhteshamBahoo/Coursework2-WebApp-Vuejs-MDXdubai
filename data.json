@@ -20,7 +20,7 @@
         "location":"Oxford",
         "price": 80,
         "image": "kine.png",
-        "spaces": 5
+        "spaces": 4
        
       }, 
       {
@@ -77,6 +77,7 @@
         "price": 100,
         "image": "bus.jpg",
         "spaces": 10
+       
        
       } 
 ]
