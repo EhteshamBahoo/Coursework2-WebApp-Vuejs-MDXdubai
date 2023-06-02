@@ -177,7 +177,6 @@
                                 <button v-else disabled>Add To Cart</button>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
             </section>
@@ -241,7 +240,7 @@
             },
             cartItemCount(){
                 return this.cart.length || "Empty";
-            },
+            }, 
             canRemoveFromCart(){
                 return this.cart.length > 0
             },
