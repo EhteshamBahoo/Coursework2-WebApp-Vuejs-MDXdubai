@@ -14,6 +14,7 @@ const uri = "mongodb+srv://ehteshambahoo9023:mangodb1101@webstore01.54bc9pb.mong
 let db;
 client.connect(uri,(err,cli)=>{
     db = cli.db('WebStore01');
+
 });
 
 app.use(cors())
@@ -22,6 +23,7 @@ app.use((req,res,next)=>{
     let formatted_date = `${dt.getFullYear()}-${dt.getMonth() + 1}-${dt.getDate()} ${dt.getHours()}:${dt.getMinutes()}:${dt.getSeconds()}`
     let formatted_log = `[${formatted_date}] ${req.method}:${req.url} ${res.statusCode}`;
     console.log(formatted_log);
+    
     next()
 });
  
